@@ -1,0 +1,10 @@
+1)RegEx patternt qurun, hansı ki, bu tələblərə cavab versin:
+"Sözün ilk hərfi böyük, sonra istənilən qədər kiçik hərf və sonra yalnız bir rəqəm" 
+olsun;
+
+^[A-Z][a-z]+[0-9]
+
+2)RegEx patternt qurun, hansı ki, bu tələblərə cavab versin:
+"String-də ən azı bir böyük, bir kiçik hərf və bir rəqəm olsun";
+
+^[A-Z]+[a-z][0-9]
